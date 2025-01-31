@@ -1,0 +1,25 @@
+{
+  "api": {
+    "name": "LocalNetworkPermissionCheckerPlugin",
+    "slug": "localnetworkpermissioncheckerplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "getLocalNetworkPermissionStatus",
+        "signature": "() => Promise<{ status: 'notDetermined' | 'denied' | 'granted'; }>",
+        "parameters": [],
+        "returns": "Promise<{ status: 'notDetermined' | 'denied' | 'granted'; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getlocalnetworkpermissionstatus"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
